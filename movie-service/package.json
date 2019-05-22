@@ -1,0 +1,53 @@
+{
+	"name": "movie-service",
+	"version": "1.0.0",
+	"description": "cinema system with micro services",
+	"main": "index.js",
+	"standard": {
+		"env": [
+			"mocha"
+		],
+		"ignore": [
+			"mock"
+		]
+	},
+	"scripts": {
+		"test": "mocha -R spec src/**/*.spec.js",
+		"start": "node src/index.js",
+		"watch": "nodemon src/index.js",
+		"prod": "pm2 src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dinobambino7/cinema-ms.git"
+	},
+	"author": "Muchiri Njugi",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/dinobambino7/cinema-ms/issues"
+	},
+	"homepage": "https://github.com/dinobambino7/cinema-ms#readme",
+	"devDependencies": {
+		"eslint": "^5.16.0",
+		"expect": "^24.8.0",
+		"mocha": "^6.1.4",
+		"should": "^13.2.3",
+		"supertest": "^4.0.2"
+	},
+	"dependencies": {
+		"chalk": "^2.4.2",
+		"dotenv": "^8.0.0",
+		"express": "^4.17.0",
+		"helmet": "^3.18.0",
+		"http-status": "^1.3.2",
+		"mongodb": "^3.2.5",
+		"morgan": "^1.9.1",
+		"winston": "^3.2.1"
+	},
+	"keywords": [
+		"express",
+		"mongodb",
+		"microservice",
+		"docker"
+	]
+}

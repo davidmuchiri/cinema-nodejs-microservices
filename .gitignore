@@ -1,3 +1,4 @@
+node_modules
 movie-service/node_modules
 movie-servie/src/environment
 catalog-service/node_modules
