@@ -1,5 +1,5 @@
 node_modules
 movie-service/node_modules
-movie-servie/src/environment
+movie-service/src/environment
 catalog-service/node_modules
 catalog-service/src/environment
